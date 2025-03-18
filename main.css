@@ -8,6 +8,7 @@
     body{
     background-color: rgb(5, 0, 33);
     font-family: 'Science Gothic', sans-serif;
+    background-image: url("Images/ScienceGothicBackground.svg");
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -123,10 +124,10 @@ h5{
 
 @keyframes y-opaque {
     0%, 100%{
-        font-variation-settings: "wght" 100, "slnt" -10, "wdth" 50, "YOPQ" 18;
+        font-variation-settings: "YOPQ" 16, "wght" 100, "slnt" -10, "wdth" 50;
     }
     50%{
-        font-variation-settings: "wght" 100, "slnt" -10, "wdth" 50, "YOPQ" 116;
+        font-variation-settings: "YOPQ" 118, "wght" 100, "slnt" -10, "wdth" 50;
     }
 }
 /* variable font that changes on hover */
