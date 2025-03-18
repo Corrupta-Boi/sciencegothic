@@ -90,16 +90,45 @@ h5{
 }
 
 .width{
-    font-variation-settings: "YOPQ" 100, "wght" 400, "slnt" -10, "wdth" 200;
-}
-.weight
-{
-    font-variation-settings: "YOPQ" 100, "wght" 900, "slnt" -10, "wdth" 50;
-}
-.yopaque{
-    font-variation-settings: "YOPQ" 100, "wght" 400, "slnt" -10, "wdth" 50;
+    animation: width 5s infinite;
+    font-size: 60px;
+    letter-spacing: 3px;
 }
 
+@keyframes width {
+    0%, 100%{
+        font-variation-settings: "YOPQ" 16, "wght" 100, "slnt" -10, "wdth" 50;
+    }
+    50%{font-variation-settings: "YOPQ" 16, "wght" 100, "slnt" -10, "wdth" 200;
+    }
+}
+.weight{
+    animation: weight 4s infinite;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+@keyframes weight {
+    0%, 100%{
+        font-variation-settings: "YOPQ" 16, "wght" 100, "slnt" -10, "wdth" 50;
+    }
+    50%{font-variation-settings: "YOPQ" 16, "wght" 900, "slnt" -10, "wdth" 50;
+    }
+}
+.y-opaque{
+    animation: y-opaque 10s infinite;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+@keyframes y-opaque {
+    0%, 100%{
+        font-variation-settings: "wght" 100, "slnt" -10, "wdth" 50, "YOPQ" 18;
+    }
+    50%{
+        font-variation-settings: "wght" 100, "slnt" -10, "wdth" 50, "YOPQ" 116;
+    }
+}
 /* variable font that changes on hover */
 .variable-font{
     font-weight:1 ;
