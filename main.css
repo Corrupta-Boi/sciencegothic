@@ -70,6 +70,36 @@ p{
     }
     
 }
+/* text animations in variations section */
+h5{
+    font-size: 40px;
+    color:white
+}
+.slant{
+    animation: slant 4s infinite;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+@keyframes slant {
+    0%, 100%{
+        font-variation-settings: "YOPQ" 16, "wght" 100, "slnt" -10, "wdth" 50;
+    }
+    50%{font-variation-settings: "YOPQ" 16, "wght" 100, "slnt" 0, "wdth" 50;
+    }
+}
+
+.width{
+    font-variation-settings: "YOPQ" 100, "wght" 400, "slnt" -10, "wdth" 200;
+}
+.weight
+{
+    font-variation-settings: "YOPQ" 100, "wght" 900, "slnt" -10, "wdth" 50;
+}
+.yopaque{
+    font-variation-settings: "YOPQ" 100, "wght" 400, "slnt" -10, "wdth" 50;
+}
+
 /* variable font that changes on hover */
 .variable-font{
     font-weight:1 ;
