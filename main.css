@@ -6,7 +6,7 @@
         }
     
     body{
-    background-color: lightsteelblue;
+    background-color: rgb(5, 0, 33);
     font-family: 'Science Gothic', sans-serif;
 }
 /* how the page wrapper will appear on mobile */
@@ -50,17 +50,17 @@ h3{
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
-    color: tomato;
+    color: rgb(255, 255, 0, 0.94);
 }
 
 h2{
     font-weight:20; 
     text-align: center;
     font-variation-settings: "YOPQ" 100, "wght" 400, "slnt" -10, "wdth" 50;
-    color: yellow;
+    color: rgba(255, 255, 0, 0.94);
 }
 p{
-    color: thistle;
+    color: rgb(18, 180, 0);
 }
 @keyframes weightChange {
     0%, 100%{
