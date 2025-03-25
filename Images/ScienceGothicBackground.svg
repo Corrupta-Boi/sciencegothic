@@ -3,74 +3,58 @@
   <defs>
     <style>
       .cls-1 {
-        stroke-width: 3px;
+        stroke-width: .75px;
       }
 
       .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
-        opacity: .5;
-      }
-
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
         fill: none;
-        stroke: #dba7cc;
+        opacity: .4;
+        stroke: #382a38;
         stroke-miterlimit: 10;
       }
 
       .cls-2 {
-        stroke-width: 6px;
+        stroke-width: 2px;
       }
 
       .cls-3 {
-        stroke-width: 4px;
+        stroke-width: 8px;
       }
 
       .cls-4 {
         stroke-width: 12px;
       }
 
+      .cls-7 {
+        fill: #101123;
+      }
+
       .cls-5 {
-        stroke-width: 8px;
+        stroke-width: 4px;
       }
 
       .cls-6 {
-        stroke-width: 2px;
-      }
-
-      .cls-7 {
-        opacity: .8;
-        stroke-width: .75px;
-      }
-
-      .cls-8 {
-        fill: #101123;
+        stroke-width: 6px;
       }
     </style>
   </defs>
-  <rect class="cls-8" x="-.15" width="612.15" height="792.25"/>
-  <line class="cls-5" x1="79.91" x2="79.91" y2="792.25"/>
-  <line class="cls-5" x1="526.24" x2="526.24" y2="792"/>
-  <line class="cls-2" x1="130.05" x2="130.05" y2="792"/>
-  <line class="cls-2" x1="474.14" x2="474.14" y2="792"/>
-  <line class="cls-3" x1="180.19" x2="180.19" y2="792"/>
-  <line class="cls-3" x1="422.25" x2="422.04" y2="792"/>
-  <line class="cls-3" x1="225.83" x2="225.83" y2="792"/>
-  <line class="cls-3" x1="376.03" x2="376.03" y2="792"/>
-  <line class="cls-1" x1="248.83" x2="248.83" y2="792"/>
-  <line class="cls-3" x1="351.98" x2="351.98" y2="792"/>
-  <line class="cls-7" x1="-.78" y1="731.77" x2="611.22" y2="731.77"/>
-  <line class="cls-7" y1="712.16" x2="612" y2="712.16"/>
-  <line class="cls-7" x1="-.15" y1="693.18" x2="611.85" y2="693.18"/>
-  <line class="cls-7" x1="-1.24" y1="672.94" x2="610.76" y2="672.94"/>
-  <line class="cls-7" x1="-1.4" y1="144.31" x2="610.6" y2="144.31"/>
-  <line class="cls-7" x1="-.62" y1="124.7" x2="611.38" y2="124.7"/>
-  <line class="cls-7" x1="-.77" y1="105.72" x2="611.23" y2="105.72"/>
-  <line class="cls-7" x1="-1.86" y1="85.48" x2="610.14" y2="85.48"/>
-  <line class="cls-3" x1="0" y1="349.46" x2="612" y2="349.46"/>
-  <line class="cls-5" x1="0" y1="246.06" x2="612" y2="246.06"/>
-  <line class="cls-5" x1="0" y1="312.63" x2="612" y2="312.63"/>
-  <line class="cls-3" y1="341.97" x2="612" y2="341.97"/>
-  <line class="cls-3" x1="0" y1="616.21" x2="612" y2="616.21"/>
-  <line class="cls-6" x1="-.15" y1="608.41" x2="611.85" y2="608.41"/>
-  <line class="cls-4" x1="318.01" x2="318.01" y2="792"/>
-  <line class="cls-6" x1="328.99" x2="328.99" y2="792"/>
+  <rect class="cls-7" x="-.15" width="612.15" height="792.25"/>
+  <line class="cls-3" x1="79.91" x2="79.91" y2="792.25"/>
+  <line class="cls-3" x1="526.24" x2="526.24" y2="792"/>
+  <line class="cls-6" x1="130.05" x2="130.05" y2="792"/>
+  <line class="cls-5" x1="180.19" x2="180.19" y2="792"/>
+  <line class="cls-5" x1="422.25" x2="422.04" y2="792"/>
+  <line class="cls-1" x1="-.78" y1="731.77" x2="611.22" y2="731.77"/>
+  <line class="cls-1" x1="-.15" y1="693.18" x2="611.85" y2="693.18"/>
+  <line class="cls-1" x1="-1.4" y1="144.31" x2="610.6" y2="144.31"/>
+  <line class="cls-1" x1="-.62" y1="124.7" x2="611.38" y2="124.7"/>
+  <line class="cls-1" x1="-.77" y1="105.72" x2="611.23" y2="105.72"/>
+  <line class="cls-1" x1="-1.86" y1="85.48" x2="610.14" y2="85.48"/>
+  <line class="cls-5" x1="-.86" y1="265.65" x2="611.14" y2="265.65"/>
+  <line class="cls-3" x1="0" y1="246.06" x2="612" y2="246.06"/>
+  <line class="cls-3" x1="0" y1="602.78" x2="612" y2="602.78"/>
+  <line class="cls-5" x1="0" y1="589.36" x2="612" y2="589.36"/>
+  <line class="cls-5" x1="0" y1="616.21" x2="612" y2="616.21"/>
+  <line class="cls-4" x1="449.82" y1=".13" x2="449.82" y2="792.13"/>
+  <line class="cls-2" x1="371.71" y1=".13" x2="371.71" y2="792.13"/>
 </svg>

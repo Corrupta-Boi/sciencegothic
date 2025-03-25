@@ -38,11 +38,14 @@ grid-area: v;
 
 #alphabet {
 grid-area: a;
+font-size: 29px;
 }
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: rgb(5, 0, 33);
+    color: rgb(18, 180, 0);
+    font-size: 20px;
 }
 
 /* variable font animation */
@@ -56,9 +59,17 @@ h3{
 
 h2{
     font-weight:20; 
-    text-align: center;
+    text-align: left;
     font-variation-settings: "YOPQ" 100, "wght" 400, "slnt" -10, "wdth" 50;
     color: rgba(255, 255, 0, 0.94);
+    font-size: 40px;
+}
+h1{
+    font-weight:20; 
+    text-align: left;
+    font-variation-settings: "YOPQ" 100, "wght" 400, "slnt" -10, "wdth" 50;
+    color: rgba(255, 255, 0, 0.94);
+    font-size: 40px;
 }
 p{
     color: rgb(18, 180, 0);
