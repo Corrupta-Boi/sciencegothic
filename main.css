@@ -41,11 +41,38 @@ grid-area: a;
 font-size: 29px;
 }
 }
+/*Download button */
+.outline {
+    display: flex;;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 20px;
+    margin:0 45%;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(18, 180, 0);
+    border: 4px solid rgb(18, 180, 0);
+    transition: all .3s ease;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+     
+    
+}
+.outline:hover {
+    background-color: rgba(255, 255, 0, 0.94);
+    color: #000000;
+}
+
 /* CSS for the footer */
 footer{
-    background-color: rgb(5, 0, 33);
+    background-color: rgb(16, 17, 35);
     color: rgb(18, 180, 0);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* variable font animation */
